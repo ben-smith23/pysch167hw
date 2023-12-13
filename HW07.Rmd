@@ -93,7 +93,7 @@ Afterward, you should use apply the logic with your own coding to prevent having
 
 ```
 
-## (1pt) Use **{dplyr}** to compute the mean grouped by calendar year variable and the Stag/Athena variable. Note, if you summarize, you will lose some rows in your data frame and I want you to have all the rows there. You should have a data frame which has values for your mean variable that are repeated for all athletes in the a given year on a given team.
+## (1pt) Use **{dplyr}** to compute the mean (of the elements they chose? one or both?) grouped by calendar year variable and the Stag/Athena variable. Note, if you summarize, you will lose some rows in your data frame and I want you to have all the rows there. You should have a data frame which has values for your mean variable that are repeated for all athletes in the a given year on a given team.
 
 ```{r}
 
