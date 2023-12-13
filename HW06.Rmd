@@ -49,7 +49,7 @@ generate_palette(
 
 # *Diverging Palette using {colorspace}*
 
-Using the data set for your project, set up your data frame (e.g., mutate if necessary) in a way that would be appropriate for a diverging color palette. Create two plots based on the data, make one of the plots with a diverging palette and (the other not) using **{colorspace}**. Use a palette other than one used in the class module. Hint: You will need to pass something to `palette`. Also, your `geom_*()` could require either `col` or `fill` so pay attention to the function naming convention. Be mindful also of the difference between `scale_*_continuous_*()` and `scale_*_discrete_()` to prevent an error.
+Using the data set for your project, set up your data frame (e.g., mutate if necessary) in a way that would be appropriate for a diverging color palette. Create two plots based on the data. Make one of the plots with a diverging palette and the other without a diverging color palette. Use **{colorspace}**. Use a palette other than one used in the class module. Hint: You will need to pass something to `palette`. Also, your `geom_*()` could require either `col` or `fill` so pay attention to the function naming convention. Be mindful also of the difference between `scale_*_continuous_*()` and `scale_*_discrete_()` to prevent an error.
 
 1. assign each plot to an object;
 2. pass the plot objects as arguments to `gridExtra::arrangeGrob()`
@@ -108,7 +108,7 @@ You can see if the `"go_both_ways"` modification helps with the palette.
 
 # *Assign Colors to Levels*
 
-Given all of the color palettes you created, using one of them, create a *named vector* containing both the factor level colors and their corresponding colors in some way you see fit and use that vector to assign those colors  *manually* to the levels in your plot.  
+Use one of the color palettes you created. Create a *named vector* containing both the factor level colors and their corresponding colors in some way you see fit and use that vector to assign those colors  *manually* to the levels in your plot.  
 
 ```{r}
 
