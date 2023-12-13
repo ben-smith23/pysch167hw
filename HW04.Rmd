@@ -113,7 +113,7 @@ gsub(pattern,
      )
 ```
 
-Looking at this function, `?gsub()`, you will see you will need to pass an argument for the string `pattern` to search for, the string you want that `replacement` to be, and the vector, `x` you want to modify. The other default arguments could be changed if you cannot fix your vector using those defaults. In the end, your goal will be to replace the name `Mark` with a numeric form (your tibble will display this specifically as type double, a floating-point number). For those curious, `R` tends to convert single-precision values as double-precision values, though this is more memory intensive (64bit). 
+Looking at this function, `?gsub()`, you will see you will need to pass an argument for the string `pattern` to search for, the string you want that `replacement` to be, and the vector, `x` you want to modify. The other default arguments could be changed if you cannot fix your vector using those defaults. In the end, your goal will be to replace `Mark` with a numeric form (your tibble will display this specifically as type double, a floating-point number). For those curious, `R` tends to convert single-precision values as double-precision values, though this is more memory intensive (64bit). 
 
 `mutate()` is actually a very friendly function. First, you don't have to nest a bunch of functions so that your variable name-value pair is all on one line. If doing so is confusing, `mutate()` will perform the mutation before proceeding to the next name-value pair, so you can break down a mutation into smaller pieces if necessary. 
 
